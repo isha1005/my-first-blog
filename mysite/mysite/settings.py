@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2y6^$ehe=uaawdiw^bz16+v$%*u85cz79hgkfvcy3xy8=j7m$('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','herokuapp.com']
 
@@ -77,15 +77,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djangogirls',
         'USER': 'apurva',
-        'PASSWORD': '',
+        'PASSWORD': 'apurvasharma',
         'HOST': 'localhost',
         'PORT': '',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 

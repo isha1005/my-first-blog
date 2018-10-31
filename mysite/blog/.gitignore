@@ -5,4 +5,5 @@ girls
 db.sqlite3
 /static
 .DS_Store
+ps.txt
 local_settings.py
